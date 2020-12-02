@@ -65,6 +65,7 @@ view: citibike_trips {
 
   dimension_group: starttime {
     type: time
+    datatype: date
     timeframes: [
       raw,
       time,
@@ -79,6 +80,7 @@ view: citibike_trips {
 
   dimension_group: stoptime {
     type: time
+    datatype: date
     timeframes: [
       raw,
       time,
