@@ -14,12 +14,12 @@ view: citibike_trips {
   }
 
   dimension: customer_plan {
-    type: string
+    type: number
     sql: ${TABLE}.customer_plan ;;
   }
 
   dimension: end_station_id {
-    type: number
+    type: string
     sql: ${TABLE}.end_station_id ;;
   }
 
