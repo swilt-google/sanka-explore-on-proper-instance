@@ -3,7 +3,7 @@ view: citibike_trips {
     ;;
 
   dimension: bikeid {
-    type: string
+    type: number
     value_format_name: id
     sql: ${TABLE}.bikeid ;;
   }
