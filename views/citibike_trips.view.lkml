@@ -14,6 +14,7 @@ view: citibike_trips {
   }
 
   dimension: customer_plan {
+    label: "customer_plan"
     type: number
     sql: ${TABLE}.customer_plan ;;
   }

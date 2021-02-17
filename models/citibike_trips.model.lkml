@@ -1,4 +1,4 @@
-connection: "citibike_trips"
+connection: "user_test_1"
 
 # include all the views
 include: "/views/**/*.view"
