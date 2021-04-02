@@ -8,11 +8,11 @@ view: citibike_trips {
     sql: ${TABLE}.bikeid ;;
   }
 
-  dimension: birth_year {
-    label: "Birth Year!!!"
-    type: number
-    sql: ${TABLE}.birth_year + 1;;
-  }
+  # dimension: birth_year {
+  #   label: "Birth Year!!!"
+  #   type: number
+  #   sql: ${TABLE}.birth_year + 1;;
+  # }
 
   dimension: customer_plan {
     label: "customer_plan"
