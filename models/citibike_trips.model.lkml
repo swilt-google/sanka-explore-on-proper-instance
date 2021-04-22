@@ -3,6 +3,7 @@ connection: "user_test_1"
 # include all the views
 include: "/views/**/*.view"
 
+
 datagroup: citibike_trips_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
   max_cache_age: "1 hour"

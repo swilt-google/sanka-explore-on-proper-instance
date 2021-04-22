@@ -10,15 +10,15 @@ view: citibike_trips {
 
   # dimension: birth_year {
   #   label: "Birth Year!!!"
-  #   type: number
+  #   type: number test
   #   sql: ${TABLE}.birth_year + 1;;
   # }
 
-  dimension: customer_plan {
-    label: "customer_plan"
-    type: number
-    sql: ${TABLE}.customer_plan ;;
-  }
+  # dimension: customer_plan {
+  #   label: "customer_plan"
+  #   type: number
+  #   sql: ${TABLE}.customer_plan ;;
+  # }
 
   dimension: end_station_id {
     type: string
