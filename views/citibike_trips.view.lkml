@@ -26,6 +26,7 @@ view: citibike_trips {
   }
 
   dimension: end_station_latitude {
+    label: "test change"
     type: number
     sql: ${TABLE}.end_station_latitude ;;
   }
